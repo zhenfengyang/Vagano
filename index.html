@@ -4,11 +4,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vagano</title>
+    <!-- 导入Bootstrap css文件 -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- 导入基础样式 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 导入首页样式 -->
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
+    <!-- 小屏幕导航栏 -->
+    <!-- 导航栏 开始 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container visible-xs-block">
+            <div class="row">
+                <div class="nav-small-box">
+                    <div>
+                        <span class="glyphicon glyphicon-menu-hamburger btn btn-default" aria-hidden="true"></span>
+                    </div>
+                    <div>
+                        <span class="glyphicon glyphicon-search btn btn-default" aria-hidden="true"></span>
+                        <span class="btn btn-info" aria-hidden="true">en</span>
+                        <span class="glyphicon glyphicon-option-vertical btn btn-default " aria-hidden="true"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  hidden-xs">
+            <div class="row">
+                <div class="nav-box">
+                    <ul>
+                        <li>HOME</li>
+                        <li>PAGES</li>
+                        <li>BLOG</li>
+                        <li>GALLERY</li>
+                        <li>SHOP</li>
+                        <li>CONTACT US</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- 导航栏 结束 -->
+    <!--Featured Products 开始 -->
+    <div class="container">
+        <div class="row">
+            <div class="products">
+                <div class="page-header">
+                    <h1>Featured Products</h1>
+                </div>
+                <div class="row">
+                    <article class="product-main">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-1-196x134.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                            glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-2-155x145.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                            glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-3-180x154.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                            glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-4-222x153.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                            glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-5-169x159.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                        glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-6-89x164.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                        glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-7-89x157.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                        glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-11">
+                            <div class="product-content">
+                                <div class="product-figure">
+                                    <span class="label label-danger">SALE</span>
+                                    <img src="./images/product-8-145x136.png" alt="" width="194px" height="134px">
+                                </div>
+                                <h5 class="product-title">
+                                    <a href="#">CARROTS</a>
+                                </h5>
+                                <div class="product-price">
+                                    <span>$30.00</span>
+                                    <span class="product-price-new">$23.00</span>
+                                </div>
+                                <div class="product-btn">
+                                    <a href="#" class="btn btn-default glyphicon glyphicon-search" aria-hidden="true"></a>
+                                    <a href="#" class="btn btn-default 
+                                        glyphicon glyphicon-shopping-cart product-toggle"></a>
+                                </div>
+                            </div>
+                        </div>
 
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Featured Products 结束 -->
+    <!-- 导入jquery -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- 导入bootstrap js文件 -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- 导入index.js文件 -->
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

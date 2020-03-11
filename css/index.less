@@ -1,0 +1,187 @@
+// 导航栏开始
+nav {
+    background: linear-gradient(to right, #5C92C2, #73CBDE);
+    
+    //小屏幕导航栏
+    .nav-small-box {
+        display: flex;
+        padding: 0 16px;
+        height: 50px;
+        background-color: #fff;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 1px 5px #ccc;
+
+        &>div {
+            .btn-default {
+                border: none;
+                font-size: 20px;
+                box-shadow: none;
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+            .btn {
+                padding: 2px;
+            }
+            .btn-info {
+                box-shadow: none;
+                width: 30px;
+                height: 30px;
+                font-size: 18px;
+                border-radius: 50%;
+                background-color: #3CC3C1;
+            }
+        }
+    }
+
+    .nav-box  {
+        display: flex;
+        padding: 23px 0;
+        justify-content: center;
+        ul {
+            display: flex;
+            display: block;
+            margin: 0 auto;
+
+            li {
+                display: inline;
+                flex: 1;
+                margin: 0 30px;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+        
+    }
+}
+// 导航栏结束
+
+// products 开始
+.products {
+    margin-top: 130px;
+    .page-header {
+        text-align: center;
+        border-bottom: none;
+        
+        h1 {
+            font-size: 60px;
+            color: #151515;
+        }
+    }
+
+    .product-main {
+        &>div {
+            padding: 0 15px;
+            margin-bottom: 40px;
+
+            .product-content {
+                position: relative;
+                padding: 20px 20px 40px;
+                //transform: translateY(-40px);
+                border-radius: 6px;
+                background-color: #F5F5F5;
+                box-sizing: border-box;
+                transition: all .2s;
+
+                .product-btn {
+                    position: absolute;
+                    bottom: -18px; 
+                    left: 0;
+                    padding: 6px 0 30px;
+                    border-radius: 0 0 6px 6px;
+                    text-align: center;
+                    background-color: #fff;
+                    width: 100%;
+                     transition: all .3s;
+                    //box-shadow: 8px 12px 15px #F4F4F4, -8px 7px 8px #F4F4F4;
+                    opacity: 0;
+    
+                    .btn-default {
+                        opacity: 0;
+                        border: none;
+                        color: #393720;
+                        background-color: #F9E95E;
+                        transition: all .3s;
+                    }
+    
+                    .btn {
+                        padding: 10px 14px;
+                        border-radius: 50%;
+                        font-size: 20px;
+                        margin-right: 10px;
+                    }
+                    .product-toggle {
+                        color: #fff;
+                        background-color: #3CC3C1;
+                    }
+                }
+                
+                &:hover {
+                    background-color: #fff;
+                    box-shadow: 8px 5px 15px #F4F4F4, -8px -5px 15px #F4F4F4;
+                    z-index: 999;
+                }
+                .product-figure {
+                    position: relative;
+                    height: 200px;
+
+                    .label-danger {
+                        position: absolute;
+                        top: 4px;
+                        right: 0;
+                        padding: 4px 10px;
+                        border-radius: 5px;
+                        background-color: #F96666;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+    
+                    img {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+
+                .product-title {
+                    margin-top: 20px;
+                    text-align: center;
+                    a {
+                        font-size: 16px;
+                        color: #151515;
+                        font-weight: 700;
+                        text-decoration: none;
+                        transition: all .3s;
+
+                        &:hover {
+                            color: #3DC3C1;
+                        }
+                    }
+                }
+
+                .product-price {
+                    text-align: center;
+
+                    span {
+                        margin: 0 4px;
+                        font-size: 14px;
+                        color: #9D9D9D;
+                        text-decoration: line-through;
+                    }
+
+                    .product-price-new {
+                        color: #3CC3C1;
+                        text-decoration: none;
+                        font-weight: 700;
+                    }
+                }
+                
+            }
+        
+        }
+    }
+}
+// products 结束
